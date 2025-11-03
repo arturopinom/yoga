@@ -96,9 +96,9 @@ const YogaLanding = () => {
                     ></iframe>
                 </div>
                 
-                <div className="hero-overlay absolute inset-0 z-10"></div>
+                <div className="hero-overlay absolute inset-0 z-10 md:hidden"></div>
                 
-                <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
+                <div className="relative z-20 text-center px-4 max-w-4xl mx-auto md:hidden">
                     <h1 className="font-dm text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
                         Encuentra tu Equilibrio Interior
                     </h1>
