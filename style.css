@@ -8,6 +8,17 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     overflow-x: hidden;
     color: #1a1a1a;
+    background: white;
+}
+
+/* Hide any content that's not inside the React root */
+body > *:not(#root):not(script) {
+    display: none !important;
+}
+
+#root {
+    position: relative;
+    z-index: 1;
 }
 
 .font-inter {
@@ -204,5 +215,11 @@ body {
     
     section:first-of-type button {
         box-shadow: 0 4px 20px rgba(103, 58, 183, 0.4);
+    }
+    
+    /* Ocultar cualquier texto decorativo del body */
+    body::before,
+    body::after {
+        display: none !important;
     }
 }
