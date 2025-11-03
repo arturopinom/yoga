@@ -272,7 +272,7 @@ const YogaLanding = () => {
                         </div>
                         <div className="relative">
                             <img 
-                                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop&q=90" 
+                                src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=800&h=600&fit=crop&q=90" 
                                 alt="Práctica de Yoga" 
                                 className="rounded-2xl shadow-2xl"
                             />
@@ -299,22 +299,22 @@ const YogaLanding = () => {
                             {
                                 title: "Hatha Yoga",
                                 description: "Estilo tradicional que combina posturas físicas con técnicas de respiración. Ideal para principiantes y para desarrollar fundamentos sólidos.",
-                                image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=90"
                             },
                             {
                                 title: "Vinyasa Yoga",
                                 description: "Flujo dinámico que sincroniza movimiento con respiración. Perfecto para quienes buscan un práctica más activa y cardiovascular.",
-                                image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&h=400&fit=crop&q=90"
                             },
                             {
                                 title: "Yin Yoga",
                                 description: "Práctica meditativa con posturas mantenidas por varios minutos. Excelente para flexibilidad profunda y relajación del sistema nervioso.",
-                                image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop&q=90"
                             },
                             {
                                 title: "Ashtanga Yoga",
                                 description: "Secuencia rigurosa y estructurada que desarrolla fuerza, resistencia y disciplina. Para practicantes que buscan un desafío constante.",
-                                image: "https://images.unsplash.com/photo-1506126279646-a697353d3166?w=600&h=400&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop&q=90"
                             }
                         ].map((type, index) => (
                             <div key={index} className="card-hover bg-white rounded-2xl overflow-hidden shadow-lg">
@@ -335,22 +335,22 @@ const YogaLanding = () => {
                                     {
                                         title: "Hatha Yoga",
                                         description: "Estilo tradicional que combina posturas físicas con técnicas de respiración. Ideal para principiantes y para desarrollar fundamentos sólidos.",
-                                        image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=90"
                                     },
                                     {
                                         title: "Vinyasa Yoga",
                                         description: "Flujo dinámico que sincroniza movimiento con respiración. Perfecto para quienes buscan un práctica más activa y cardiovascular.",
-                                        image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&h=400&fit=crop&q=90"
                                     },
                                     {
                                         title: "Yin Yoga",
                                         description: "Práctica meditativa con posturas mantenidas por varios minutos. Excelente para flexibilidad profunda y relajación del sistema nervioso.",
-                                        image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop&q=90"
                                     },
                                     {
                                         title: "Ashtanga Yoga",
                                         description: "Secuencia rigurosa y estructurada que desarrolla fuerza, resistencia y disciplina. Para practicantes que buscan un desafío constante.",
-                                        image: "https://images.unsplash.com/photo-1506126279646-a697353d3166?w=600&h=400&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop&q=90"
                                     }
                                 ].map((type, index) => (
                                     <div key={index} className="swiper-slide">
@@ -387,19 +387,19 @@ const YogaLanding = () => {
                         {[
                             {
                                 title: "Principiantes",
-                                image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=500&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=500&fit=crop&q=90"
                             },
                             {
                                 title: "Embarazadas",
-                                image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=500&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop&q=90"
                             },
                             {
                                 title: "Seniors",
-                                image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=400&h=500&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1593810450967-f9c42742e326?w=400&h=500&fit=crop&q=90"
                             },
                             {
                                 title: "Atletas",
-                                image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop&q=90"
+                                image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=500&fit=crop&q=90"
                             }
                         ].map((category, index) => (
                             <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg group">
@@ -422,19 +422,19 @@ const YogaLanding = () => {
                                 {[
                                     {
                                         title: "Principiantes",
-                                        image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=500&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=500&fit=crop&q=90"
                                     },
                                     {
                                         title: "Embarazadas",
-                                        image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=500&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop&q=90"
                                     },
                                     {
                                         title: "Seniors",
-                                        image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=400&h=500&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1593810450967-f9c42742e326?w=400&h=500&fit=crop&q=90"
                                     },
                                     {
                                         title: "Atletas",
-                                        image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop&q=90"
+                                        image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=500&fit=crop&q=90"
                                     }
                                 ].map((category, index) => (
                                     <div key={index} className="swiper-slide">
