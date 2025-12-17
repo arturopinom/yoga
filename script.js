@@ -76,10 +76,10 @@ const YogaLanding = () => {
             <div className={`logo-bar fixed top-0 left-0 right-0 z-50 py-3 px-4 ${isBarTransparent ? 'transparent' : ''} ${!isBarVisible ? 'hidden-bar' : ''}`}>
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
                     <a href="http://www.fundacionlacumbre.cl/" target="_blank" rel="noopener noreferrer" className="logo-container-item">
-                        <img src="https://www.energyclub.cl/img/cms/LEY_DEL_DEPORTE/LOGOLACUMBRE.png" alt="Fundación La Cumbre" className="h-10 md:h-12" />
+                        <img src="https://www.practicayoga.cl/logo-fundacion-la-cumbre.png" alt="Fundación La Cumbre" className="h-10 md:h-12" />
                     </a>
                     <a href="http://www.mindep.cl/" target="_blank" rel="noopener noreferrer" className="logo-container-item">
-                        <img src="https://www.energyclub.cl/img/cms/LEY_DEL_DEPORTE/donaciones_logo.jpg" alt="Mindep" className="h-10 md:h-12" />
+                        <img src="https://www.practicayoga.cl/logo-donaciones.jpg" alt="Mindep" className="h-10 md:h-12" />
                     </a>
                 </div>
             </div>
