@@ -88,10 +88,10 @@ const YogaLanding = () => {
             <section className="relative min-h-screen flex items-center justify-center text-white">
                 <div className="video-container absolute inset-0 z-0 hidden md:block">
                     <iframe 
-                        src="https://www.youtube.com/embed/DIh737Xqs0E?autoplay=1&mute=1&loop=1&playlist=DIh737Xqs0E&controls=1&showinfo=0&rel=0&modestbranding=1"
+                        src="https://www.youtube.com/embed/DIh737Xqs0E?controls=1&rel=0&modestbranding=1&fs=1"
                         title="Yoga Video"
                         frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                     ></iframe>
                 </div>
